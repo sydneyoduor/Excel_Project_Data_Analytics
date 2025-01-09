@@ -36,14 +36,15 @@ The dataset used for this project contains real-world data science job informati
 - 💡 Insights Gained: Enables quick grasp of global salary disparities and highlights high/low salary regions.
 ## 🧮 Formulas and Functions
 ### 💰 Median Salary by Job Titles
-```=MEDIAN(
-IF(
-    (jobs[job_title_short]=A2)*
-    (jobs[job_country]=country)*
-    (ISNUMBER(SEARCH(type,jobs[job_schedule_type])))*
-    (jobs[salary_year_avg]<>0),
-    jobs[salary_year_avg]
-)
+```
+=MEDIAN(
+    IF(
+        (jobs[job_title_short]=A2)*
+        (jobs[job_country]=country)*
+        (ISNUMBER(SEARCH(type,jobs[job_schedule_type])))*
+        (jobs[salary_year_avg]<>0),
+        jobs[salary_year_avg]
+    )
 )
 ```
 - 🔍 Multi-Criteria Filtering: Checks job title, country, schedule type, and excludes blank salaries.
