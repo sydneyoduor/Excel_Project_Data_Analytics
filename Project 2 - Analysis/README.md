@@ -78,7 +78,7 @@ It includes detailed information on:
 - 💼 Job roles like Senior Data Engineer and Data Scientist command higher median salaries both in the US and internationally, showcasing the global demand for high-level data expertise.
 - 💰 The salary disparity between US and Non-US roles is particularly notable in high-tech jobs, which might be influenced by the concentration of tech industries in the US.
   
-![salary_us_vs_nonus](https://github.com/user-attachments/assets/d13ce842-3268-44f0-8717-7674a6f76e5b)  
+  ![salary_us_vs_nonus](https://github.com/user-attachments/assets/d13ce842-3268-44f0-8717-7674a6f76e5b)  
 
 #### 🤔 So What
 - These salary insights are important for planning and salary negotiations, helping professionals and companies align their offers with market standards while considering geographical variations.
@@ -88,21 +88,21 @@ It includes detailed information on:
 - 🔗 I created a data model by integrating the `data_jobs_all` and `data_jobs_skills` tables into one model.
 - 🧹 Since I had already cleaned the data using Power Query; Power Pivot created a relationship between these two tables.
 ### 🔗 Data Model
-I created a relationship between my two tables using the `job_id` column.  
+- I created a relationship between my two tables using the `job_id` column.  
 
-![data_model_relationship](https://github.com/user-attachments/assets/5abfa427-23a2-40e2-8257-e7806f743a09)  
+  ![data_model_relationship](https://github.com/user-attachments/assets/5abfa427-23a2-40e2-8257-e7806f743a09)  
 
 ### 📃 Power Pivot Menu
 - The Power Pivot menu was used to refine my data model and makes it easy to create measures.  
 
-![power_pivot_menu](https://github.com/user-attachments/assets/7985455e-0596-4080-a0f6-9b100e6f3f07)  
+  ![power_pivot_menu](https://github.com/user-attachments/assets/7985455e-0596-4080-a0f6-9b100e6f3f07)  
 
 ## 📊Analysis
 ### 💡Insights
 - 💻 SQL and Python dominate as top skills in data-related jobs, reflecting their foundational role in data processing and analysis.
 - ☁️ Emerging technologies like AWS and Azure also show significant presence, underlining the industry's shift towards cloud services and big data technologies.
 
-![top_skills](https://github.com/user-attachments/assets/fda47e6e-44ad-4b15-a3cb-ed16cae00c90)  
+  ![top_skills](https://github.com/user-attachments/assets/fda47e6e-44ad-4b15-a3cb-ed16cae00c90)  
 
 ### 🤔So What
 - Understanding prevalent skills in the industry not only helps professionals stay competitive but also guides training and educational programs to focus on the most impactful technologies.
@@ -118,7 +118,7 @@ I created a relationship between my two tables using the `job_id` column.
 - 💰 Higher median salaries are associated with skills like Python, Oracle, and SQL, suggesting their critical role in high-paying tech jobs.
 - 📉 Skills like PowerPoint and Word have the lowest median salaries and likelihood, indicating less specialization and demand in high-salary sectors.
 
-![top_skills_pay](https://github.com/user-attachments/assets/f20cd7d4-2e6f-4dad-9899-9878a003e2c2)  
+  ![top_skills_pay](https://github.com/user-attachments/assets/f20cd7d4-2e6f-4dad-9899-9878a003e2c2)  
 
 ### 🤔So What
 - This chart highlights the importance of investing time in learning high-value skills like Python and SQL, which are evidently tied to higher paying roles, especially for those looking to maximize their salary in the tech industry.
